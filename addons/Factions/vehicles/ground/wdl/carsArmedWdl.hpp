@@ -3,7 +3,7 @@ class VSC_UK3CB_BAF_Panther_GPMG_Green_A: UK3CB_BAF_Panther_GPMG_Green_A
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Wdl";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Panther CLV GPMG";
@@ -15,7 +15,7 @@ class VSC_UK3CB_BAF_LandRover_WMIK_Milan_FFR_Green_B: UK3CB_BAF_LandRover_WMIK_M
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Wdl";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Land Rover WMIK Milan FFR (Green)";
@@ -27,7 +27,7 @@ class VSC_UK3CB_BAF_LandRover_WMIK_HMG_FFR_Green_B: UK3CB_BAF_LandRover_WMIK_HMG
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Wdl";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Land Rover WMIK HMG FFR (Green)";
@@ -39,7 +39,7 @@ class VSC_UK3CB_BAF_LandRover_WMIK_GPMG_FFR_Green_B: UK3CB_BAF_LandRover_WMIK_GP
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Wdl";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Land Rover WMIK GPMG FFR (Green)";
@@ -51,7 +51,7 @@ class VSC_UK3CB_BAF_LandRover_WMIK_GMG_FFR_Green_B: UK3CB_BAF_LandRover_WMIK_GMG
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Wdl";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Land Rover WMIK GMG FFR (Green)";
@@ -63,7 +63,7 @@ class VSC_UK3CB_BAF_Jackal2_L111A1_W: UK3CB_BAF_Jackal2_L111A1_W
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Wdl";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Jackal 2 HMG (Wdl)";
@@ -75,7 +75,7 @@ class VSC_UK3CB_BAF_Husky_Passenger_HMG_Green: UK3CB_BAF_Husky_Passenger_HMG_Gre
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Wdl";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Husky HMG (Green)";
@@ -87,7 +87,7 @@ class VSC_UK3CB_BAF_Husky_Passenger_GPMG_Green: UK3CB_BAF_Husky_Passenger_GPMG_G
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Wdl";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Husky GPMG (Green)";
@@ -99,7 +99,7 @@ class VSC_UK3CB_BAF_Husky_Passenger_GMG_Green: UK3CB_BAF_Husky_Passenger_GMG_Gre
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Wdl";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Husky GMG (Green)";

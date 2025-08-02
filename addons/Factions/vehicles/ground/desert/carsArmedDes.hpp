@@ -3,7 +3,7 @@ class VSC_UK3CB_BAF_Panther_GPMG_Sand_A: UK3CB_BAF_Panther_GPMG_Sand_A
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Des";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Panther CLV GPMG";
@@ -15,7 +15,7 @@ class VSC_UK3CB_BAF_LandRover_WMIK_Milan_FFR_Sand_A: UK3CB_BAF_LandRover_WMIK_Mi
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Des";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Land Rover WMIK Milan FFR";
@@ -27,7 +27,7 @@ class VSC_UK3CB_BAF_LandRover_WMIK_HMG_FFR_Sand_A: UK3CB_BAF_LandRover_WMIK_HMG_
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Des";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Land Rover WMIK HMG FFR";
@@ -39,7 +39,7 @@ class VSC_UK3CB_BAF_LandRover_WMIK_GPMG_FFR_Sand_A: UK3CB_BAF_LandRover_WMIK_GPM
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Des";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Land Rover WMIK GPMG FFR";
@@ -51,7 +51,7 @@ class VSC_UK3CB_BAF_LandRover_WMIK_GMG_FFR_Sand_A: UK3CB_BAF_LandRover_WMIK_GMG_
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Des";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Land Rover WMIK GMG FFR";
@@ -63,7 +63,7 @@ class VSC_UK3CB_BAF_Jackal2_L111A1_D: UK3CB_BAF_Jackal2_L111A1_D
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Des";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Jackal 2 HMG";
@@ -75,7 +75,7 @@ class VSC_UK3CB_BAF_Husky_Passenger_HMG_Sand: UK3CB_BAF_Husky_Passenger_HMG_Sand
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Des";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Husky HMG Passenger";
@@ -87,7 +87,7 @@ class VSC_UK3CB_BAF_Husky_Passenger_GPMG_Sand: UK3CB_BAF_Husky_Passenger_GPMG_Sa
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Des";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Husky GPMG Passenger";
@@ -99,7 +99,7 @@ class VSC_UK3CB_BAF_Husky_Passenger_GMG_Sand: UK3CB_BAF_Husky_Passenger_GMG_Sand
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Des";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Husky GMG Passenger";
@@ -111,7 +111,7 @@ class VSC_foxhound_lppv_tes: rksla3_foxhound_lppv_tes
     faction = "VS_C_4RANGER";
     editorCategory = "VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Armed_Des";
-    side = 2;
+    side=1;
     scope = 2;
     scopecurator = 2;
     displayName = "Foxhound LPPV TES";

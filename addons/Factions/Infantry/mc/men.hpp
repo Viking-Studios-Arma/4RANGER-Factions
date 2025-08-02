@@ -5,7 +5,7 @@ class VSC_4RANGER_MC_PLIC: B_Soldier_SL_F
     side=1;
     scope=2;
     scopecurator=2;
-    displayName="IC";
+    displayName="Platoon Commander";
     VSC_weaponItems[] = {"","","","SF_ELCANDR_RF"};
     uniformClass="SF_MC_Camo_G3";
     weapons[]={"SF_L403A1_D","UK3CB_BAF_L131A1","UK3CB_BAF_Soflam_Laserdesignator","Put","Throw"};
@@ -26,7 +26,7 @@ class VSC_4RANGER_MC_PL2IC: B_Soldier_SL_F
     side=1;
     scope=2;
     scopecurator=2;
-    displayName="IC";
+    displayName="Platoon Sergeant";
     VSC_weaponItems[] = {"","","","SF_ELCANDR_RF"};
     uniformClass="SF_MC_Camo_G3";
     weapons[]={"SF_L403A1_D","UK3CB_BAF_L131A1","UK3CB_BAF_Soflam_Laserdesignator","Put","Throw"};
@@ -68,7 +68,7 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
     side=1;
     scope=2;
     scopecurator=2;
-    displayName="IC";
+    displayName="2 IC";
     VSC_weaponItems[] = {"","","","SF_ELCANDR_RF"};
     uniformClass="SF_MC_Camo_G3";
     weapons[]={"SF_L403A1_D","UK3CB_BAF_L131A1","UK3CB_BAF_Soflam_Laserdesignator","Put","Throw"};
@@ -85,7 +85,7 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
   class VSC_4RANGER_MC_Surgeon: B_medic_F
   {
     faction="VS_C_4RANGER";
-    editorSubcategory = "4RANGER_Men";
+    editorSubcategory = "VSC_Men_MC";
     side=1;
     scope=2;
     scopecurator=2;
@@ -105,8 +105,8 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
 
   class VSC_4RANGER_MC_Medic: B_medic_F
   {
-    faction="VS_C_4RANGER_MC";
-    editorSubcategory = "4RANGER_Men";
+    faction="VS_C_4RANGER";
+    editorSubcategory = "VSC_Men_MC";
     side=1;
     scope=2;
     scopecurator=2;
@@ -127,7 +127,7 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
   class VSC_4RANGER_MC_Rifleman: B_Soldier_F
   {
     faction="VS_C_4RANGER";
-    editorSubcategory = "4RANGER_Men";
+    editorSubcategory = "VSC_Men_MC";
     side=1;
     scope=2;
     scopecurator=2;
@@ -148,11 +148,11 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
   class VSC_4RANGER_MC_Recruit: B_Soldier_F
   {
     faction="VS_C_4RANGER";
-    editorSubcategory = "4RANGER_Men";
+    editorSubcategory = "VSC_Men_MC";
     side=1;
     scope=2;
     scopecurator=2;
-    displayName="Cadet";
+    displayName="Recruit";
     uniformClass="UK3CB_BAF_U_CombatUniform_MTP";
     weapons[]={"uk3cb_baf_l85a3","UK3CB_BAF_AT4_CS_AP_Launcher","UK3CB_BAF_L131A1","Put","Throw"};
     respawnWeapons[]={"uk3cb_baf_l85a3","UK3CB_BAF_AT4_CS_AP_Launcher","UK3CB_BAF_L131A1","Put","Throw"};
@@ -169,7 +169,7 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
   class VSC_4RANGER_Helicopter_Pilot: B_C_Helipilot_F
   {
     faction="VS_C_4RANGER";
-    editorSubcategory = "4RANGER_Men";
+    editorSubcategory = "VSC_Men_MC";
     side=1;
     scope=2;
     scopecurator=2;
@@ -190,7 +190,7 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
   class VSC_4RANGER_Helicopter_Crew: B_C_Helipilot_F
   {
     faction="VS_C_4RANGER";
-    editorSubcategory = "4RANGER_Men";
+    editorSubcategory = "VSC_Men_MC";
     side=1;
     scope=2;
     scopecurator=2;

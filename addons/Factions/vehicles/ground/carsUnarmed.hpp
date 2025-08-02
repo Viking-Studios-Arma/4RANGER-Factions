@@ -3,7 +3,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Unarmed";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Comms Offroad";
@@ -17,7 +17,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Cars_Unarmed";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Offroad New";

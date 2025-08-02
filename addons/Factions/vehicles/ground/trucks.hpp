@@ -3,7 +3,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Trucks";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Transport Truck";
@@ -16,7 +16,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Trucks";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Repair Truck";
@@ -29,7 +29,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Trucks";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Mover Truck";
@@ -42,7 +42,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Trucks";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Medical Truck";
@@ -55,7 +55,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Trucks";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Fuel Truck";
@@ -68,7 +68,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Trucks";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Container Truck";
@@ -81,7 +81,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Trucks";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Ammo truck";

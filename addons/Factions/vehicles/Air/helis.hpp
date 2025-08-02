@@ -3,7 +3,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Wildcat";
@@ -15,7 +15,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Wildcat AT";
@@ -28,7 +28,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Wildcat Armed";
@@ -41,7 +41,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="AH6M Littlebird";
@@ -53,7 +53,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="MH6M Littlebird";
@@ -65,7 +65,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="AH-1 Apache";
@@ -77,7 +77,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Merlin HC4 18 (GPMG)";
@@ -89,7 +89,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Merlin HC4 24";
@@ -101,7 +101,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Merlin HC4 32";
@@ -113,7 +113,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Merlin HC4 CSAR";
@@ -126,7 +126,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="HH-60G/M Pavehawk (Black Hawk)";
@@ -195,7 +195,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="MH-60M";
@@ -263,7 +263,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="UH-60M Medevac";
@@ -303,7 +303,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="MH-60M DAP";
@@ -371,7 +371,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="MH-60M DAP MLASS";
@@ -439,7 +439,7 @@
     faction="VS_C_4RANGER";
     editorCategory="VS_C_4RANGER";
     editorSubcategory = "VSC_Helicopters";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="MH-60M Slick";
