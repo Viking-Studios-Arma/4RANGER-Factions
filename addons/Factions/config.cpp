@@ -105,7 +105,8 @@ class CfgPatches {
       "VSC_Pilot_pack",
       "VSC_Fixed_Wing_Crew_pack",
       "VSC_Helicopter_Crew_pack",
-      "VSC_Vic_Crew_pack"
+      "VSC_Vic_Crew_pack",
+      "VSC_supplyCrate_F"
     };
     weapons[]={};
 		magazines[] = {};
@@ -187,6 +188,17 @@ class cfgVehicles {
 		};
 	};
     #include "parents\parents.hpp"
+    class VSC_supplyCrate_F: B_supplyCrate_F {
+
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "VSC Arsenal Crate";
+        author = "Amateur-god";
+
+        class TransportMagazines {};
+        class TransportWeapons {};
+        class TransportItems {};
+    };
     #include "Infantry\mc\men.hpp"
     #include "Infantry\mc\backpacks.hpp"
     #include "vehicles\Air\helis.hpp"

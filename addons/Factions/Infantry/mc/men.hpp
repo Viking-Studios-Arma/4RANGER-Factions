@@ -86,7 +86,7 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
   {
     faction="VS_C_4RANGER";
     editorSubcategory = "4RANGER_Men";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Surgeon";
@@ -107,7 +107,7 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
   {
     faction="VS_C_4RANGER_MC";
     editorSubcategory = "4RANGER_Men";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Medic";
@@ -128,7 +128,7 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
   {
     faction="VS_C_4RANGER";
     editorSubcategory = "4RANGER_Men";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Rifleman";
@@ -149,7 +149,7 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
   {
     faction="VS_C_4RANGER";
     editorSubcategory = "4RANGER_Men";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Cadet";
@@ -170,7 +170,7 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
   {
     faction="VS_C_4RANGER";
     editorSubcategory = "4RANGER_Men";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Helicopter Pilot";
@@ -191,7 +191,7 @@ class VSC_4RANGER_MC_2IC: B_Soldier_SL_F
   {
     faction="VS_C_4RANGER";
     editorSubcategory = "4RANGER_Men";
-    side=2;
+    side=1;
     scope=2;
     scopecurator=2;
     displayName="Helicopter Crew";
