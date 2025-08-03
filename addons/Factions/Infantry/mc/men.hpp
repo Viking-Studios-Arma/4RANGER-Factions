@@ -191,8 +191,8 @@ class VSC_4RANGER_MC_Recruit: B_Soldier_F
         "HandGrenade","HandGrenade",
         "tsp_flashbang_cts","tsp_flashbang_cts","tsp_flashbang_cts","tsp_flashbang_cts"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "Rev_One", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "Rev_One", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "mpx_cobra_patch", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "mpx_cobra_patch", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Grenadier: B_Soldier_F
