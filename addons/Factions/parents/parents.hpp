@@ -1,7 +1,4 @@
 	class Mavic_3X_BLU;
-  class B_Soldier_SL_F;
-  class B_medic_F;
-  class B_Soldier_F;
   class EMP_Offroad_Comms;
   class B_Heli_Light_01_dynamicLoadout_F;
   class B_Heli_Light_01_F;
@@ -114,7 +111,6 @@
       class CargoTurret_04;
     };
   };
-  class fza_ah64d_b1;
   class UK3CB_BAF_Wildcat_AH1_TRN_8A;
   class UK3CB_BAF_Wildcat_AH1_8_Armed;
   class UK3CB_BAF_Wildcat_AH1_CAS_8C;
@@ -165,3 +161,13 @@
   class UK3CB_BAF_B_Kitbag_MTP;
   class UK3CB_BAF_B_Kitbag_OLI;
   class B_supplyCrate_F;
+  class B_Soldier_F;
+  class B_Soldier_SL_F;
+  class B_medic_F;
+  class B_soldier_AR_F;
+  class B_soldier_LAT_F;
+  class B_recon_M_F;
+  class B_engineer_F;
+  class B_soldier_UAV_F;
+  class B_Helipilot_F;
+  class B_HeliCrew_F;
