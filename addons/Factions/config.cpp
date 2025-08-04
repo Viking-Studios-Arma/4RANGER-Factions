@@ -215,4 +215,5 @@ class cfgVehicles {
     #include "vehicles\ground\trucks.hpp"
     #include "vehicles\ground\statics\aa.hpp"
     #include "vehicles\sea\landingCraft.hpp"
+    #include "vehicles\sea\cca.hpp"
 };
