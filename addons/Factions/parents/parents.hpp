@@ -171,3 +171,5 @@
   class B_soldier_UAV_F;
   class B_Helipilot_F;
   class B_HeliCrew_F;
+  class CCA_Armed
+  class CCA_Slick
