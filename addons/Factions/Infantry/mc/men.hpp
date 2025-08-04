@@ -28,14 +28,12 @@ class VSC_4RANGER_MC_PL_IC: B_Soldier_SL_F
     };
     magazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
-        "sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F",
         "UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd",
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
-        "sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F",
         "UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd",
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts"
@@ -621,14 +619,14 @@ class VSC_4RANGER_MC_CBRN_IC: B_Soldier_SL_F
     };
     magazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
-        "sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F",
+
         "UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd",
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
-        "sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F","sps_black_hornet_01_Static_F",
+
         "UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd",
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts"

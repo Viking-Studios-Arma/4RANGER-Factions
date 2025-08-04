@@ -7,7 +7,7 @@
     scope=2;
     scopecurator=2;
     displayName="Wildcat";
-    crew="VSC_Helicopter_Pilot";
+    crew="VSC_4RANGER_MC_Heli_Pilot";
     vehicleClass = "VSC_helicopters";
   };
   class VSC_Wildcat_AT: UK3CB_BAF_Wildcat_AH1_CAS_8C
@@ -19,8 +19,8 @@
     scope=2;
     scopecurator=2;
     displayName="Wildcat AT";
-    crew="VSC_Helicopter_Pilot";
-    typicalCargo[] = {"VSC_Helicopter_Crew"};
+    crew="VSC_4RANGER_MC_Heli_Pilot";
+    typicalCargo[] = {"VSC_4RANGER_MC_Heli_Crew"};
     vehicleClass = "VSC_helicopters";
   };
   class VSC_Wildcat_Armed: UK3CB_BAF_Wildcat_AH1_8_Armed
@@ -32,8 +32,8 @@
     scope=2;
     scopecurator=2;
     displayName="Wildcat Armed";
-    crew="VSC_Helicopter_Pilot";
-    typicalCargo[] = {"VSC_Helicopter_Crew"};
+    crew="VSC_4RANGER_MC_Heli_Pilot";
+    typicalCargo[] = {"VSC_4RANGER_MC_Heli_Crew"};
     vehicleClass = "VSC_helicopters";
   };
   class VSC_AH6M_Littlebird: B_Heli_Light_01_dynamicLoadout_F
@@ -45,7 +45,7 @@
     scope=2;
     scopecurator=2;
     displayName="AH6M Littlebird";
-    crew="VSC_Helicopter_Pilot";
+    crew="VSC_4RANGER_MC_Heli_Pilot";
     vehicleClass = "VSC_helicopters";
   };
   class VSC_MH6M_Littlebird: B_Heli_Light_01_F
@@ -57,7 +57,7 @@
     scope=2;
     scopecurator=2;
     displayName="MH6M Littlebird";
-    crew="VSC_Helicopter_Pilot";
+    crew="VSC_4RANGER_MC_Heli_Pilot";
     vehicleClass = "VSC_helicopters";
   };
   class VSC_AH1_Apache: UK3CB_BAF_Apache_AH1_Generic_MTP_RM
@@ -69,7 +69,7 @@
     scope=2;
     scopecurator=2;
     displayName="AH-1 Apache";
-    crew="VSC_Helicopter_Pilot";
+    crew="VSC_4RANGER_MC_Heli_Pilot";
     vehicleClass = "VSC_helicopters";
   };
   class VSC_BAF_Merlin_HC4_18_GPMG: UK3CB_BAF_Merlin_HC4_18_GPMG
@@ -81,7 +81,7 @@
     scope=2;
     scopecurator=2;
     displayName="Merlin HC4 18 (GPMG)";
-    crew="VSC_Helicopter_Pilot";
+    crew="VSC_4RANGER_MC_Heli_Pilot";
     vehicleClass = "VSC_helicopters";
   };
   class VSC_BAF_Merlin_HC4_24: UK3CB_BAF_Merlin_HC4_24
@@ -93,7 +93,7 @@
     scope=2;
     scopecurator=2;
     displayName="Merlin HC4 24";
-    crew="VSC_Helicopter_Pilot";
+    crew="VSC_4RANGER_MC_Heli_Pilot";
     vehicleClass = "VSC_helicopters";
   };
   class VSC_BAF_Merlin_HC4_32: UK3CB_BAF_Merlin_HC4_32
@@ -105,7 +105,7 @@
     scope=2;
     scopecurator=2;
     displayName="Merlin HC4 32";
-    crew="VSC_Helicopter_Pilot";
+    crew="VSC_4RANGER_MC_Heli_Pilot";
     vehicleClass = "VSC_helicopters";
   };
   class VSC_BAF_Merlin_HC4_CSAR: UK3CB_BAF_Merlin_HC4_CSAR
@@ -117,8 +117,8 @@
     scope=2;
     scopecurator=2;
     displayName="Merlin HC4 CSAR";
-    crew="VSC_Helicopter_Pilot";
-    typicalCargo[] = {"VSC_Helicopter_Crew"};
+    crew="VSC_4RANGER_MC_Heli_Pilot";
+    typicalCargo[] = {"VSC_4RANGER_MC_Heli_Crew"};
     vehicleClass = "VSC_helicopters";
   };
   class VSC_HH60GM: vtx_HH60
@@ -130,26 +130,26 @@
     scope=2;
     scopecurator=2;
     displayName="HH-60G/M Pavehawk (Black Hawk)";
-    crew="VSC_Helicopter_Pilot";
-    typicalCargo[] = {"VSC_Helicopter_Crew"};
+    crew="VSC_4RANGER_MC_Heli_Pilot";
+    typicalCargo[] = {"VSC_4RANGER_MC_Heli_Crew"};
     vehicleClass = "VSC_helicopters";
 		class Turrets: Turrets
 		{
 			class CopilotTurret: CopilotTurret
 			{
-        gunnerType = "VSC_Helicopter_Pilot";
+        gunnerType = "VSC_4RANGER_MC_Heli_Pilot";
 			};
       class MainTurret: MainTurret
 		  {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
 		  };
 		  class RightDoorGun: RightDoorGun
 		  {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
 		  };
       class troop_commander: troop_commander
       {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
       };
       class CargoTurret_01: CargoTurret_01
       {
@@ -199,26 +199,26 @@
     scope=2;
     scopecurator=2;
     displayName="MH-60M";
-    crew="VSC_Helicopter_Pilot";
-    typicalCargo[] = {"VSC_Helicopter_Crew"};
+    crew="VSC_4RANGER_MC_Heli_Pilot";
+    typicalCargo[] = {"VSC_4RANGER_MC_Heli_Crew"};
     vehicleClass = "VSC_helicopters";
 		class Turrets: Turrets
 		{
 			class CopilotTurret: CopilotTurret
 			{
-        gunnerType = "VSC_Helicopter_Pilot";
+        gunnerType = "VSC_4RANGER_MC_Heli_Pilot";
 			};
       class MainTurret: MainTurret
 		  {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
 		  };
 		  class RightDoorGun: RightDoorGun
 		  {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
 		  };
       class troop_commander: troop_commander
       {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
       };
       class CargoTurret_01: CargoTurret_01
       {
@@ -267,26 +267,26 @@
     scope=2;
     scopecurator=2;
     displayName="UH-60M Medevac";
-    crew="VSC_Helicopter_Pilot";
-    typicalCargo[] = {"VSC_Helicopter_Crew"};
+    crew="VSC_4RANGER_MC_Heli_Pilot";
+    typicalCargo[] = {"VSC_4RANGER_MC_Heli_Crew"};
     vehicleClass = "VSC_helicopters";
 		class Turrets: Turrets
 		{
 			class CopilotTurret: CopilotTurret
 			{
-        gunnerType = "VSC_Helicopter_Pilot";
+        gunnerType = "VSC_4RANGER_MC_Heli_Pilot";
 			};
       class MainTurret: MainTurret
 		  {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
 		  };
 		  class RightDoorGun: RightDoorGun
 		  {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
 		  };
       class troop_commander: troop_commander
       {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
       };
       class LeftWindow: LeftWindow
       {
@@ -307,26 +307,26 @@
     scope=2;
     scopecurator=2;
     displayName="MH-60M DAP";
-    crew="VSC_Helicopter_Pilot";
-    typicalCargo[] = {"VSC_Helicopter_Crew"};
+    crew="VSC_4RANGER_MC_Heli_Pilot";
+    typicalCargo[] = {"VSC_4RANGER_MC_Heli_Crew"};
     vehicleClass = "VSC_helicopters";
     		class Turrets: Turrets
 		{
 			class CopilotTurret: CopilotTurret
 			{
-        gunnerType = "VSC_Helicopter_Pilot";
+        gunnerType = "VSC_4RANGER_MC_Heli_Pilot";
 			};
       class MainTurret: MainTurret
 		  {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
 		  };
 		  class RightDoorGun: RightDoorGun
 		  {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
 		  };
       class troop_commander: troop_commander
       {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
       };
       class CargoTurret_01: CargoTurret_01
       {
@@ -375,26 +375,26 @@
     scope=2;
     scopecurator=2;
     displayName="MH-60M DAP MLASS";
-    crew="VSC_Helicopter_Pilot";
-    typicalCargo[] = {"VSC_Helicopter_Crew"};
+    crew="VSC_4RANGER_MC_Heli_Pilot";
+    typicalCargo[] = {"VSC_4RANGER_MC_Heli_Crew"};
     vehicleClass = "VSC_helicopters";
     		class Turrets: Turrets
     {
       class CopilotTurret: CopilotTurret
       {
-        gunnerType = "VSC_Helicopter_Pilot";
+        gunnerType = "VSC_4RANGER_MC_Heli_Pilot";
       };
       class MainTurret: MainTurret
       {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
       };
       class RightDoorGun: RightDoorGun
       {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
       };
       class troop_commander: troop_commander
       {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
       };
       class CargoTurret_01: CargoTurret_01
       {
@@ -443,22 +443,22 @@
     scope=2;
     scopecurator=2;
     displayName="MH-60M Slick";
-    crew="VSC_Helicopter_Pilot";
-    typicalCargo[] = {"VSC_Helicopter_Crew"};
+    crew="VSC_4RANGER_MC_Heli_Pilot";
+    typicalCargo[] = {"VSC_4RANGER_MC_Heli_Crew"};
     vehicleClass = "VSC_helicopters";
     class Turrets: Turrets
     {
       class CopilotTurret: CopilotTurret
       {
-        gunnerType = "VSC_Helicopter_Pilot";
+        gunnerType = "VSC_4RANGER_MC_Heli_Pilot";
       };
       class MainTurret: MainTurret
       {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
       };
       class RightDoorGun: RightDoorGun
       {
-        gunnerType = "VSC_Helicopter_Crew";
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
       };
       class CargoTurret_01: CargoTurret_01
       {

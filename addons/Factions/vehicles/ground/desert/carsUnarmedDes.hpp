@@ -7,6 +7,6 @@ class VSC_aircraft_tug: rksla3_aircraft_tug_opfor
     scope = 2;
     scopecurator = 2;
     displayName = "Aircraft Tug";
-    crew = "VSC_Rifleman"; // change to ground crew when available
-    typicalCargo[] = {"VSC_Rifleman"};
+    crew = "VSC_4RANGER_MC_Rifleman"; // change to ground crew when available
+    typicalCargo[] = {"VSC_4RANGER_MC_Rifleman"};
 };

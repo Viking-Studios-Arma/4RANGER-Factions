@@ -7,7 +7,7 @@ class VSC_Static_Rapier_FSC_Blindfire: RKSLA3_Static_Rapier_FSC_Blindfire
     scope = 2;
     scopecurator = 2;
     displayName = "Rapier FSC Blindfire";
-    crew= "I_UAV_AI";
+    crew= "B_UAV_AI";
     typicalCargo[] = {};
 };
 class VSC_Static_Rapier_FSC_Dagger: RKSLA3_Static_Rapier_FSC_Dagger
@@ -19,7 +19,7 @@ class VSC_Static_Rapier_FSC_Dagger: RKSLA3_Static_Rapier_FSC_Dagger
     scope = 2;
     scopecurator = 2;
     displayName = "Rapier FSC Dagger";
-    crew= "I_UAV_AI";
+    crew= "B_UAV_AI";
     typicalCargo[] = {};
 };
 class VSC_Static_Rapier_FSC_Launcher: RKSLA3_Static_Rapier_FSC_Launcher
@@ -31,6 +31,6 @@ class VSC_Static_Rapier_FSC_Launcher: RKSLA3_Static_Rapier_FSC_Launcher
     scope = 2;
     scopecurator = 2;
     displayName = "Rapier FSC Launcher";
-    crew= "I_UAV_AI";
+    crew= "B_UAV_AI";
     typicalCargo[] = {};
 };

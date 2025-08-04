@@ -8,8 +8,8 @@
     scopecurator=2;
     displayName="Comms Offroad";
     hiddenSelectionsTextures[]={"a3\soft_f_enoch\offroad_01\data\offroad_01_ext_blk_co.paa","a3\soft_f_enoch\offroad_01\data\offroad_01_ext_blk_co.paa","a3\soft_f_enoch\offroad_01\data\offroad_01_cover_blk_co.paa"};
-    crew="VSC_Rifleman";
-    typicalCargo[]={"VSC_Rifleman"};
+    crew="VSC_4RANGER_MC_Rifleman";
+    typicalCargo[]={"VSC_4RANGER_MC_Rifleman"};
   };
 
   class VSC_Offroad_New: C_Offroad_01_F
@@ -21,6 +21,6 @@
     scope=2;
     scopecurator=2;
     displayName="Offroad New";
-    crew="VSC_Rifleman";
-    typicalCargo[]={"VSC_Rifleman"};
+    crew="VSC_4RANGER_MC_Rifleman";
+    typicalCargo[]={"VSC_4RANGER_MC_Rifleman"};
   };
