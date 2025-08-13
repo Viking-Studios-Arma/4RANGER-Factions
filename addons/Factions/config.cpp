@@ -106,7 +106,51 @@ class CfgPatches {
       "VSC_Fixed_Wing_Crew_pack",
       "VSC_Helicopter_Crew_pack",
       "VSC_Vic_Crew_pack",
-      "VSC_supplyCrate_F"
+      "VSC_supplyCrate_F",
+      "vsc_ilbe_wd",
+      "vsc_ilbe_d",
+      "vsc_ilbe_coy",
+      "vsc_ilbe_gr",
+      "vsc_ilbe_ocp",
+      "vsc_ilbe_alpine",
+      "vsc_ilbe_black",
+      "vsc_ilbe_MCT",
+      "vsc_ilbe_wd2",
+      "vsc_ilbe_arid",
+      "vsc_ilbe_Multicam",
+      "vsc_ilbe_a_wd",
+      "vsc_ilbe_a_d",
+      "vsc_ilbe_a_coy",
+      "vsc_ilbe_a_gr",
+      "vsc_ilbe_a_ocp",
+      "vsc_ilbe_a_alpine",
+      "vsc_ilbe_a_black",
+      "vsc_ilbe_a_MCT",
+      "vsc_ilbe_a_wd2",
+      "vsc_ilbe_a_arid",
+      "vsc_ilbe_a_Multicam",
+      "vsc_ilbe_dd_wd",
+      "vsc_ilbe_dd_d",
+      "vsc_ilbe_dd_coy",
+      "vsc_ilbe_dd_gr",
+      "vsc_ilbe_dd_ocp",
+      "vsc_ilbe_dd_alpine",
+      "vsc_ilbe_dd_black",
+      "vsc_ilbe_dd_MCT",
+      "vsc_ilbe_dd_wd2",
+      "vsc_ilbe_dd_arid",
+      "vsc_ilbe_dd_Multicam",
+      "vsc_ilbe_blade_wd",
+      "vsc_ilbe_blade_d",
+      "vsc_ilbe_blade_coy",
+      "vsc_ilbe_blade_gr",
+      "vsc_ilbe_blade_ocp",
+      "vsc_ilbe_blade_alpine",
+      "vsc_ilbe_blade_black",
+      "vsc_ilbe_blade_MCT",
+      "vsc_ilbe_blade_wd2",
+      "vsc_ilbe_blade_arid",
+      "vsc_ilbe_blade_Multicam"
     };
     weapons[]={};
 		magazines[] = {};
@@ -201,6 +245,8 @@ class cfgVehicles {
     };
     #include "Infantry\mc\men.hpp"
     #include "Infantry\mc\backpacks.hpp"
+    #include "Infantry\ilbe\ilbe.hpp"
+    #include "Infantry\ilbe\overrides.hpp"
     #include "vehicles\Air\helis.hpp"
     #include "vehicles\Air\planes.hpp"
     #include "vehicles\Air\jets.hpp"
@@ -216,4 +262,5 @@ class cfgVehicles {
     #include "vehicles\ground\statics\aa.hpp"
     #include "vehicles\sea\landingCraft.hpp"
     #include "vehicles\sea\cca.hpp"
+
 };

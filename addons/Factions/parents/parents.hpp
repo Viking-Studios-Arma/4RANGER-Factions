@@ -173,3 +173,4 @@
   class B_HeliCrew_F;
   class CCA_Armed;
   class CCA_Slick;
+  class Bag_Base;

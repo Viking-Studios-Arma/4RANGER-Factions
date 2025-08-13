@@ -1,6 +1,6 @@
 // --- Command & Leadership Backpacks ---
 
-class VSC_4RANGER_MC_PL_IC_pack: B_Kitbag_mcamo
+class VSC_4RANGER_MC_PL_IC_pack: vsc_ilbe_a_Multicam
 {
     scope = 1;
     class TransportMagazines
@@ -26,7 +26,7 @@ class VSC_4RANGER_MC_PL_IC_pack: B_Kitbag_mcamo
 
 class VSC_4RANGER_MC_PL_2IC_pack: VSC_4RANGER_MC_PL_IC_pack {};
 
-class VSC_4RANGER_MC_IC_pack: B_Kitbag_mcamo
+class VSC_4RANGER_MC_IC_pack: vsc_ilbe_a_Multicam
 {
     scope = 1;
     class TransportMagazines
@@ -51,7 +51,7 @@ class VSC_4RANGER_MC_IC_pack: B_Kitbag_mcamo
 
 class VSC_4RANGER_MC_2IC_pack: VSC_4RANGER_MC_IC_pack {};
 
-class VSC_4RANGER_MC_JFO_pack: B_Kitbag_mcamo
+class VSC_4RANGER_MC_JFO_pack: vsc_ilbe_a_Multicam
 {
     scope = 1;
     class TransportMagazines
@@ -288,7 +288,7 @@ class VSC_4RANGER_MC_EOT_pack: UK3CB_BAF_B_Kitbag_MTP
     class TransportWeapons{};
 };
 
-class VSC_4RANGER_MC_CBRN_IC_pack: UK3CB_BAF_B_Kitbag_MTP
+class VSC_4RANGER_MC_CBRN_IC_pack: vsc_ilbe_a_Multicam
 {
     scope = 1;
     class TransportMagazines
@@ -449,7 +449,7 @@ class VSC_4RANGER_MC_Drone_Tech_pack: UK3CB_BAF_B_Kitbag_MTP
 
 // --- Air Crew Backpacks ---
 
-class VSC_4RANGER_MC_Heli_Pilot_pack: UK3CB_BAF_B_Kitbag_OLI
+class VSC_4RANGER_MC_Heli_Pilot_pack: vsc_ilbe_a_gr
 {
     scope = 1;
     class TransportMagazines
@@ -471,7 +471,7 @@ class VSC_4RANGER_MC_Heli_Pilot_pack: UK3CB_BAF_B_Kitbag_OLI
     class TransportWeapons{};
 };
 
-class VSC_4RANGER_MC_Heli_Crew_pack: UK3CB_BAF_B_Kitbag_OLI
+class VSC_4RANGER_MC_Heli_Crew_pack: vsc_ilbe_a_gr
 {
     scope = 1;
     class TransportMagazines
