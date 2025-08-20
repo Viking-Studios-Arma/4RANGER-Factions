@@ -8,9 +8,9 @@ class CfgPatches {
 		version = 1.0;
 		versionAr[] = {1,0,0,0};
 		versionStr = "v1.0.0";
-		requiredAddons[] = {"A3_Modules_F","cba_settings","ace_arsenal","3DEN","ace_medical"};
-		units[] = {"VS_ED_1E","BAPMC_mavik_3T_Civ","BAPMC_mavik_3_Civ"};
-		weapons[] = {"VS_C_ED_1D_Item","VS_C_ED_1E_Item","VS_C_AR2_Item","VS_C_Mavik_3_Item","VS_C_Mavik_3T_Item"};
+		requiredAddons[] = {"A3_Modules_F","cba_settings","ace_interact_menu","3DEN"};
+		units[] = {"VS_ED_1E"};
+		weapons[] = {"VS_C_ED_1D_Item","VS_C_ED_1E_Item","VS_C_AR2_Item","VS_C_Mavik_3_Item","VS_C_Mavik_3X_Item"};
 		magazines[] = {};
 		ammo[] = {};
 		worlds[] = {};

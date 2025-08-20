@@ -82,18 +82,18 @@ _action = ["pickUpUAV", "Pick Up Mavic 3", "",
 ["BAPMC_mavik_3_Civ", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
 
 //Mavik 3T
-_action = ["pickUpUAV", "Pick Up Mavic 3T", "",
+_action = ["pickUpUAV", "Pick Up Mavic 3X", "",
     {
         params ["_target","_player"];
-        [_player,_target] call VS_C_Drone_fnc_Mavik3T_Pack;
+        [_player,_target] call VS_C_Drone_fnc_Mavik3X_Pack;
     },
     {
         params ["_target","_player"];
-        _player canAddItemToBackpack "VS_C_Mavik_3T_Item";
+        _player canAddItemToBackpack "VS_C_Mavik_3X_Item";
     }
 ] call ace_interact_menu_fnc_createAction;
 
-["mavik_3T_BLU", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
-["mavik_3T_OPF", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
-["BAPMC_mavik_3T", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
-["BAPMC_mavik_3T_Civ", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
+["mavik_3X_BLU", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
+["mavik_3X_OPF", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
+["BAPMC_mavik_3X", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
+["BAPMC_mavik_3X_Civ", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
