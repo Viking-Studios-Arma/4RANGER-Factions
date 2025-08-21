@@ -8,12 +8,12 @@ class VSC_4RANGER_MC_PL_IC: B_Soldier_SL_F
     scope = 2;
     scopeCurator = 2;
     displayName = "Platoon IC";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_PL_IC_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\sl.paa";
-    weapons[] = {"SF_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
-    respawnWeapons[] = {"SF_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    weapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    respawnWeapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid","ACRE_PRC343",
@@ -38,8 +38,8 @@ class VSC_4RANGER_MC_PL_IC: B_Soldier_SL_F
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "Crye_AVS_3_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "Crye_AVS_3_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_PL_2IC: VSC_4RANGER_MC_PL_IC
@@ -69,12 +69,12 @@ class VSC_4RANGER_MC_JFO: B_Soldier_SL_F
     scope = 2;
     scopeCurator = 2;
     displayName = "JFO";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_JFO_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\jfo.paa";
-    weapons[] = {"SF_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
-    respawnWeapons[] = {"SF_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    weapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    respawnWeapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid","ACRE_PRC343",
@@ -99,8 +99,8 @@ class VSC_4RANGER_MC_JFO: B_Soldier_SL_F
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "Crye_AVS_3_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "Crye_AVS_3_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 // --- Standard Infantry ---
@@ -113,12 +113,12 @@ class VSC_4RANGER_MC_Rifleman: B_Soldier_F
     scope = 2;
     scopeCurator = 2;
     displayName = "Rifleman";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_Rifleman_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\rifleman.paa";
-    weapons[] = {"SF_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
-    respawnWeapons[] = {"SF_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    weapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    respawnWeapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -143,8 +143,8 @@ class VSC_4RANGER_MC_Rifleman: B_Soldier_F
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Recruit: B_Soldier_F
@@ -201,7 +201,7 @@ class VSC_4RANGER_MC_Grenadier: B_Soldier_F
     scope = 2;
     scopeCurator = 2;
     displayName = "Grenadier";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_Grenadier_pack";
     VSC_weaponItems[] = {"", "SMA_SFPEQ_MK18TOP_BLK", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\grenadier.paa";
@@ -233,8 +233,8 @@ class VSC_4RANGER_MC_Grenadier: B_Soldier_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts",
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Breacher: B_Soldier_F
@@ -245,7 +245,7 @@ class VSC_4RANGER_MC_Breacher: B_Soldier_F
     scope = 2;
     scopeCurator = 2;
     displayName = "Breacher";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_Breacher_pack";
     VSC_weaponItems[] = {"", "SMA_SFPEQ_MK18TOP_TAN", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\breacher.paa";
@@ -277,8 +277,8 @@ class VSC_4RANGER_MC_Breacher: B_Soldier_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts",
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 // --- Specialist Roles ---
@@ -291,7 +291,7 @@ class VSC_4RANGER_MC_LMG: B_soldier_AR_F
     scope = 2;
     scopeCurator = 2;
     displayName = "LMG";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_LMG_pack";
     VSC_weaponItems[] = {"", "", "", ""};
     editorPreview = "x\VS_C\Factions\Images\ar.paa";
@@ -333,12 +333,12 @@ class VSC_4RANGER_MC_Medic: B_medic_F
     scope = 2;
     scopeCurator = 2;
     displayName = "Medic";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_Medic_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_IR_Tan", "", "optic_MRCO"};
     editorPreview = "x\VS_C\Factions\Images\medic.paa";
-    weapons[] = {"SF_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
-    respawnWeapons[] = {"SF_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    weapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    respawnWeapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -363,8 +363,8 @@ class VSC_4RANGER_MC_Medic: B_medic_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts",
         "SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
 };
 
 class VSC_4RANGER_MC_Surgeon: B_medic_F
@@ -375,12 +375,12 @@ class VSC_4RANGER_MC_Surgeon: B_medic_F
     scope = 2;
     scopeCurator = 2;
     displayName = "Surgeon";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_Surgeon_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_IR_Tan", "", "optic_MRCO"};
     editorPreview = "x\VS_C\Factions\Images\medic.paa";
-    weapons[] = {"SF_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
-    respawnWeapons[] = {"SF_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    weapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    respawnWeapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -405,8 +405,8 @@ class VSC_4RANGER_MC_Surgeon: B_medic_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts",
         "SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45","SF_30Rnd_EMAG_556x45"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
 };
 
 class VSC_4RANGER_MC_AT: B_soldier_LAT_F
@@ -417,12 +417,12 @@ class VSC_4RANGER_MC_AT: B_soldier_LAT_F
     scope = 2;
     scopeCurator = 2;
     displayName = "Anti-Tank";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_AT_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_IR_Tan", "", "SMA_ELCAN_SPECTER_TAN_RDS_4z"};
     editorPreview = "x\VS_C\Factions\Images\at.paa";
-    weapons[] = {"SF_L403A1_D", "launch_MRAWS_green_F", "UK3CB_BAF_L131A1", "Put", "Throw"};
-    respawnWeapons[] = {"SF_L403A1_D", "launch_MRAWS_green_F", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    weapons[] = {"SF_R_L403A1_D", "launch_MRAWS_green_F", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    respawnWeapons[] = {"SF_R_L403A1_D", "launch_MRAWS_green_F", "UK3CB_BAF_L131A1", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -449,8 +449,8 @@ class VSC_4RANGER_MC_AT: B_soldier_LAT_F
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Marksman: B_recon_M_F
@@ -461,7 +461,7 @@ class VSC_4RANGER_MC_Marksman: B_recon_M_F
     scope = 2;
     scopeCurator = 2;
     displayName = "Marksman";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_Marksman_pack";
     VSC_weaponItems[] = {"", "", "UK3CB_underbarrel_acc_fgrip_bipod", "UK3CB_BAF_TA648_308"};
     editorPreview = "x\VS_C\Factions\Images\marksman.paa";
@@ -491,8 +491,8 @@ class VSC_4RANGER_MC_Marksman: B_recon_M_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts",
         "UK3CB_BAF_762_L42A1_20Rnd","UK3CB_BAF_762_L42A1_20Rnd","UK3CB_BAF_762_L42A1_20Rnd","UK3CB_BAF_762_L42A1_20Rnd"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_EOT: B_engineer_F
@@ -503,12 +503,12 @@ class VSC_4RANGER_MC_EOT: B_engineer_F
     scope = 2;
     scopeCurator = 2;
     displayName = "EOT";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_EOT_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_IR_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\eod.paa";
-    weapons[] = {"SF_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
-    respawnWeapons[] = {"SF_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    weapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    respawnWeapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -533,8 +533,8 @@ class VSC_4RANGER_MC_EOT: B_engineer_F
         "UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd",
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
 };
 
 class VSC_4RANGER_MC_Drone_Tech: B_soldier_UAV_F
@@ -545,12 +545,12 @@ class VSC_4RANGER_MC_Drone_Tech: B_soldier_UAV_F
     scope = 2;
     scopeCurator = 2;
     displayName = "Drone Tech";
-    uniformClass = "SF_MC_Camo_G3";
+    uniformClass = "SF_G3_MC";
     backpack = "VSC_4RANGER_MC_Drone_Tech_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_IR_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\uav.paa";
-    weapons[] = {"SF_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
-    respawnWeapons[] = {"SF_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    weapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    respawnWeapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -575,8 +575,8 @@ class VSC_4RANGER_MC_Drone_Tech: B_soldier_UAV_F
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 // --- CBRN Roles ---
@@ -593,8 +593,8 @@ class VSC_4RANGER_MC_CBRN_IC: B_Soldier_SL_F
     backpack = "VSC_4RANGER_MC_CBRN_IC_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\cbrn_sl.paa";
-    weapons[] = {"SF_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
-    respawnWeapons[] = {"SF_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    weapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    respawnWeapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_L131A1", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter",
@@ -631,8 +631,8 @@ class VSC_4RANGER_MC_CBRN_IC: B_Soldier_SL_F
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "Crye_AVS_3_1_UKSF"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "Crye_AVS_3_1_UKSF"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
 };
 
 class VSC_4RANGER_MC_CBRN_EOT: B_engineer_F
@@ -647,8 +647,8 @@ class VSC_4RANGER_MC_CBRN_EOT: B_engineer_F
     backpack = "VSC_4RANGER_MC_CBRN_EOT_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\cbrn_eod.paa";
-    weapons[] = {"SF_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
-    respawnWeapons[] = {"SF_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    weapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    respawnWeapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape",
@@ -683,8 +683,8 @@ class VSC_4RANGER_MC_CBRN_EOT: B_engineer_F
         "UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd","UK3CB_BAF_9_17Rnd",
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
 };
 
 class VSC_4RANGER_MC_CBRN_Rifleman: B_Soldier_F
@@ -699,8 +699,8 @@ class VSC_4RANGER_MC_CBRN_Rifleman: B_Soldier_F
     backpack = "VSC_4RANGER_MC_CBRN_Rifleman_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\cbrn.paa";
-    weapons[] = {"SF_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
-    respawnWeapons[] = {"SF_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    weapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
+    respawnWeapons[] = {"SF_R_L403A1_D", "UK3CB_BAF_AT4_CS_AP_Launcher", "UK3CB_BAF_L131A1", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape",
@@ -735,8 +735,8 @@ class VSC_4RANGER_MC_CBRN_Rifleman: B_Soldier_F
         "SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45","SF_30Rnd_EMAG_T_556x45",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","tsp_flashbang_cts"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "Crye_AVS_1_1_UKSF"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "SF_AVS_V3_MC_NP_H"};
 };
 
 // --- Air Crew ---

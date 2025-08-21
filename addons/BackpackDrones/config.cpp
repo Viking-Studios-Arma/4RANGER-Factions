@@ -49,7 +49,7 @@ class CfgFunctions {
 			class ED1E_Create {};
 			class AR2_Create {};
 			class Mavik3_Create {};
-			class Mavik3T_Create {};
+			class Mavik3X_Create {};
         };
 		class Pack {
             tag = "VS_C_drones";
@@ -58,7 +58,7 @@ class CfgFunctions {
 			class ED1E_Pack {};
 			class AR2_Pack {};
 			class Mavik3_Pack {};
-			class Mavik3T_Pack {};
+			class Mavik3X_Pack {};
         };
     };
 };

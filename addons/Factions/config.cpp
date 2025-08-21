@@ -8,7 +8,7 @@ class CfgPatches {
 		version = 1.0;
 		versionAr[] = {1,0,0,0};
 		versionStr = "v1.0.0";
-    requiredAddons[]={"ace_maptools","ace_flashlights","ace_medical_treatment","kat_breathing","ace_hearing","ace_attach","cTab","kat_airway","CBRN_gear","ace_logistics_wirecutter","ace_trenches","A3_Weapons_F","kat_chemical","UK3CB_BAF_Weapons_SmallArms","MoePilotCoveralls","MoePilotVests","rhsusf_c_troops","A3_Characters_F","CuratorOnly_Characters_F_BLUFOR","acre_sys_prc343","kat_stretcher","kat_pharma","kat_circulation","kat_surgery","UK3CB_BAF_Weapons_L131A1","UKSFVests","sps_black_hornet","ace_logistics_uavbattery","VS_C_Backpack_Drones","acre_sys_prc148","A3_Drones_F_Weapons_F_Gamma_Items","UK3CB_BAF_Equipment_Soflam","UK3CB_BAF_Weapons_Launchers","UK3CB_BAF_Weapons_L85A3","UK3CB_BAF_Equipment_Uniforms","acre_sys_prc117f"};
+    requiredAddons[]={"ace_maptools","ace_flashlights","ace_medical_treatment","kat_breathing","ace_hearing","ace_attach","cTab","kat_airway","CBRN_gear","ace_logistics_wirecutter","ace_trenches","A3_Weapons_F","kat_chemical","UK3CB_BAF_Weapons_SmallArms","MoePilotCoveralls","MoePilotVests","rhsusf_c_troops","A3_Characters_F","CuratorOnly_Characters_F_BLUFOR","acre_sys_prc343","kat_stretcher","kat_pharma","kat_circulation","kat_surgery","UK3CB_BAF_Weapons_L131A1","sps_black_hornet","ace_logistics_uavbattery","VS_C_Backpack_Drones","acre_sys_prc148","A3_Drones_F_Weapons_F_Gamma_Items","UK3CB_BAF_Equipment_Soflam","UK3CB_BAF_Weapons_Launchers","UK3CB_BAF_Weapons_L85A3","UK3CB_BAF_Equipment_Uniforms","acre_sys_prc117f"};
     units[] = {
       "VSC_Transport_Truck",
       "VSC_Repair_Truck",
@@ -156,7 +156,6 @@ class CfgPatches {
 		magazines[] = {};
 		ammo[] = {};
 		worlds[] = {};
-    skipWhenMissingDependencies = 1;
 	};
 };
 
