@@ -106,15 +106,3 @@ class VSC_UK3CB_BAF_Husky_Passenger_GMG_Sand: UK3CB_BAF_Husky_Passenger_GMG_Sand
     crew = "VSC_4RANGER_MC_Rifleman";
     typicalCargo[] = {"VSC_4RANGER_MC_Rifleman"};
 };
-class VSC_foxhound_lppv_tes: rksla3_foxhound_lppv_tes
-{
-    faction = "VS_C_4RANGER";
-    editorCategory = "VS_C_4RANGER";
-    editorSubcategory = "VSC_Cars_Armed_Des";
-    side=1;
-    scope = 2;
-    scopecurator = 2;
-    displayName = "Foxhound LPPV TES";
-    crew = "VSC_4RANGER_MC_Rifleman";
-    typicalCargo[] = {"VSC_4RANGER_MC_Rifleman"};
-};

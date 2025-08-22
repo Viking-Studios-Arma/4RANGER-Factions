@@ -4,7 +4,6 @@ Factions for 4Ranger
 
 Credits:
 
-rksl for all RKSL mods which are licensed under https://eula.rkslstudios.info
 kiyo for the 2035 modern equipment
 moe for the moe pilot stuff
 sam and darkwater for crocus, uav jammer, mavic, rpg-30, verba and wp fix
