@@ -34,16 +34,12 @@
             {
                 alwaysSelectable = 1;
 				changeingame = 1;
-                values[] = {"Standard", "AT", "AT_RF2", "AT_RF2_SM", "AT_SM", "BC", "BC_SM", "RF2", "RF2_SM", "SM"};
+                values[] = {"Standard", "AT", "AT_SM", "BC", "BC_SM", "SM"};
                 class Standard { label = "Standard"; };
                 class AT { label = "AT"; };
-                class AT_RF2 { label = "AT (RF2)"; };
-                class AT_RF2_SM { label = "AT (RF2, SM)"; };
                 class AT_SM { label = "AT (SM)"; };
                 class BC { label = "BC"; };
                 class BC_SM { label = "BC (SM)"; };
-                class RF2 { label = "RF2"; };
-                class RF2_SM { label = "RF2 (SM)"; };
                 class SM { label = "SM"; };
             };
 
@@ -132,52 +128,6 @@
         class USP_BREACHER_PACK
         {
             label = "Breacher Pack";
-            author = "Amateur-god";
-            options[] = {"Camo"};
-
-            class Camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 1;
-                values[] = {"MC", "CBR"};
-                class MC
-                {
-                    label = "Multicam";
-                    image="x\VS_Ranger\USP\data\MC.paa";
-                };
-                class CBR
-                {
-                    label = "Coyote Brown";
-                	image="#(rgb,8,8,3)color(0.55,0.38,0.25,1)";
-                };
-            };
-        };
-        class USP_FASTHAWK_PACK
-        {
-            label = "Fasthawk Pack";
-            author = "Amateur-god";
-            options[] = {"Camo"};
-
-            class Camo
-            {
-                alwaysSelectable = 1;
-				changeingame = 1;
-                values[] = {"MC", "CBR"};
-                class MC
-                {
-                    label = "Multicam";
-                    image="x\VS_Ranger\USP\data\MC.paa";
-                };
-                class CBR
-                {
-                    label = "Coyote Brown";
-                	image="#(rgb,8,8,3)color(0.55,0.38,0.25,1)";
-                };
-            };
-        };
-        class USP_HYDRATION_PACK_V2
-        {
-            label = "Hydration Pack V2";
             author = "Amateur-god";
             options[] = {"Camo"};
 

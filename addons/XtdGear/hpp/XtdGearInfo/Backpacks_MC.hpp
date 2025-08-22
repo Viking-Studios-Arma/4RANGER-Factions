@@ -93,7 +93,7 @@
             Camo = "MC";
         };
 
-        // --- Universal Packs (Individual Models) ---
+        // --- Other Packs---
         class VSC_HYDRATION_PACK_MC
         {
             model = "USP_HYDRATION_PACK";
@@ -102,16 +102,6 @@
         class VSC_PACK_BREACHER_MC
         {
             model = "USP_BREACHER_PACK";
-            Camo = "MC";
-        };
-        class VSC_PACK_FASTHAWK
-        {
-            model = "USP_FASTHAWK_PACK";
-            Camo = "MC";
-        };
-        class VSC_PACK_HYDRATION
-        {
-            model = "USP_HYDRATION_PACK_V2";
             Camo = "MC";
         };
         class VSC_PACK_POINTMAN
