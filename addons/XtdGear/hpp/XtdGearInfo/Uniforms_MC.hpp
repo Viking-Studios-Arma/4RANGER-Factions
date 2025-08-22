@@ -2,7 +2,7 @@
 		class USP_G3C_MC
 		{
 		    model = "USP_G3_Uniform";
-		    Shirt = "G3C";
+		    Shirt = "UBACS";
 		    Trousers = "MC";
 		    Sleeves = "Normal";
 		    Collar = "Down";
@@ -1014,7 +1014,7 @@
 		class USP_G3F_G3C_MC
 		{
 		    model = "USP_G3_Uniform";
-		    Shirt = "UBACS";
+		    Shirt = "G3C";
 		    Trousers = "MC";
 		    Sleeves = "Normal";
 		    Collar = "Down";

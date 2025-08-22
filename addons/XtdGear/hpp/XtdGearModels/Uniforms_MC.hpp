@@ -5,7 +5,7 @@
 		    author = "Amateur-god";
 		    scope = 2;
 		    scopeCurator = 2;
-		    options[] = {"Shirt","Trousers","Sleeves","Collar","Kneepads","Gloves","Camera"};
+		    options[] = {"Shirt","Trousers","Sleeves","Collar","Kneepads","Gloves","Shoes"};
 
 		    // Defines the various shirt types available.
 		    class Shirt
@@ -125,7 +125,6 @@
 		        class Yes { label = "Yes"; };
 		    };
 
-		    // Defines the presence of a camera.
 		    class Shoes
 		    {
 		        alwaysSelectable = 1;
