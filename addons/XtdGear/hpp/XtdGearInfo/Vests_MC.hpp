@@ -422,3 +422,354 @@
             BattleBelt = "Yes";
             Camo = "CBR";
         };
+        // --- TSF Configurations ---
+        class Crye_AVS_1
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_1";
+            Loadout = "Default";
+            Camo = "MC";
+        };
+        class Crye_AVS_1_RG
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_1";
+            Loadout = "Default";
+            Camo = "RG";
+        };
+        class Crye_AVS_1_1
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_1";
+            Loadout = "Loadout_1";
+            Camo = "MC";
+        };
+        class Crye_AVS_1_1_RG
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_1";
+            Loadout = "Loadout_1";
+            Camo = "RG";
+        };
+        class Crye_AVS_1_2
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_1";
+            Loadout = "Loadout_2";
+            Camo = "MC";
+        };
+        class Crye_AVS_1_2_RG
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_1";
+            Loadout = "Loadout_2";
+            Camo = "RG";
+        };
+        class Crye_AVS_1_3
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_1";
+            Loadout = "Loadout_3";
+            Camo = "MC";
+        };
+        class Crye_AVS_1_3_RG
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_1";
+            Loadout = "Loadout_3";
+            Camo = "RG";
+        };
+        class Crye_AVS_3
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_3";
+            Loadout = "Default";
+            Camo = "MC";
+        };
+        class Crye_AVS_3_RG
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_3";
+            Loadout = "Default";
+            Camo = "RG";
+        };
+        class Crye_AVS_3_1
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_3";
+            Loadout = "Loadout_1";
+            Camo = "MC";
+        };
+        class Crye_AVS_3_1_RG
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_3";
+            Loadout = "Loadout_1";
+            Camo = "RG";
+        };
+        class Crye_AVS_3_2
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_3";
+            Loadout = "Loadout_2";
+            Camo = "MC";
+        };
+        class Crye_AVS_3_2_RG
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_3";
+            Loadout = "Loadout_2";
+            Camo = "RG";
+        };
+        class Crye_AVS_3_3
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_3";
+            Loadout = "Loadout_3";
+            Camo = "MC";
+        };
+        class Crye_AVS_3_3_RG
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_3";
+            Loadout = "Loadout_3";
+            Camo = "RG";
+        };
+        class Crye_AVS_2
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_2";
+            Loadout = "Default";
+            Camo = "MC";
+        };
+        class Crye_AVS_2_RG
+        {
+            model = "TSF_Crye_AVS_Vest";
+            VestType = "AVS_2";
+            Loadout = "Default";
+            Camo = "RG";
+        };
+        class Belt_fc
+        {
+            model = "TSF_Belt";
+            BeltType = "FC";
+            Camo = "MC";
+        };
+        class Belt_gbrs
+        {
+            model = "TSF_Belt";
+            BeltType = "GBRS";
+            Camo = "MC";
+        };
+
+        // --- VSM Configurations ---
+        class VSM_FAPC_Breacher_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "FAPC";
+            VestLoadout = "Breacher";
+            Camo = "Multicam";
+        };
+        class VSM_FAPC_MG_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "FAPC";
+            VestLoadout = "MG";
+            Camo = "Multicam";
+        };
+        class VSM_FAPC_Operator_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "FAPC";
+            VestLoadout = "Operator";
+            Camo = "Multicam";
+        };
+        class VSM_CarrierRig_Breacher_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "CarrierRig";
+            VestLoadout = "Breacher";
+            Camo = "Multicam";
+        };
+        class VSM_CarrierRig_Gunner_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "CarrierRig";
+            VestLoadout = "MG";
+            Camo = "Multicam";
+        };
+        class VSM_CarrierRig_Operator_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "CarrierRig";
+            VestLoadout = "Operator";
+            Camo = "Multicam";
+        };
+        class VSM_LBT6094_breacher_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "LBT6094";
+            VestLoadout = "Breacher";
+            Camo = "Multicam";
+        };
+        class VSM_LBT6094_MG_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "LBT6094";
+            VestLoadout = "MG";
+            Camo = "Multicam";
+        };
+        class VSM_LBT6094_operator_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "LBT6094";
+            VestLoadout = "Operator";
+            Camo = "Multicam";
+        };
+        class VSM_RAV_Breacher_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "RAV";
+            VestLoadout = "Breacher";
+            Camo = "Multicam";
+        };
+        class VSM_RAV_MG_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "RAV";
+            VestLoadout = "MG";
+            Camo = "Multicam";
+        };
+        class VSM_RAV_operator_Multicam
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "RAV";
+            VestLoadout = "Operator";
+            Camo = "Multicam";
+        };
+        class VSM_FAPC_Breacher_OGA
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "FAPC";
+            VestLoadout = "Breacher";
+            Camo = "OGA";
+        };
+        class VSM_FAPC_MG_OGA
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "FAPC";
+            VestLoadout = "MG";
+            Camo = "OGA";
+        };
+        class VSM_FAPC_Operator_OGA
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "FAPC";
+            VestLoadout = "Operator";
+            Camo = "OGA";
+        };
+        class VSM_CarrierRig_Breacher_OGA
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "CarrierRig";
+            VestLoadout = "Breacher";
+            Camo = "OGA";
+        };
+        class VSM_CarrierRig_Gunner_OGA
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "CarrierRig";
+            VestLoadout = "MG";
+            Camo = "OGA";
+        };
+        class VSM_CarrierRig_Operator_OGA
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "CarrierRig";
+            VestLoadout = "Operator";
+            Camo = "OGA";
+        };
+        class VSM_LBT6094_breacher_OGA
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "LBT6094";
+            VestLoadout = "Breacher";
+            Camo = "OGA";
+        };
+        class VSM_LBT6094_MG_OGA
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "LBT6094";
+            VestLoadout = "MG";
+            Camo = "OGA";
+        };
+        class VSM_LBT6094_operator_OGA
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "LBT6094";
+            VestLoadout = "Operator";
+            Camo = "OGA";
+        };
+        class VSM_FAPC_Breacher_OGA_OD
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "FAPC";
+            VestLoadout = "Breacher";
+            Camo = "OGA_OD";
+        };
+        class VSM_FAPC_MG_OGA_OD
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "FAPC";
+            VestLoadout = "MG";
+            Camo = "OGA_OD";
+        };
+        class VSM_FAPC_Operator_OGA_OD
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "FAPC";
+            VestLoadout = "Operator";
+            Camo = "OGA_OD";
+        };
+        class VSM_CarrierRig_Breacher_OGA_OD
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "CarrierRig";
+            VestLoadout = "Breacher";
+            Camo = "OGA_OD";
+        };
+        class VSM_CarrierRig_Gunner_OGA_OD
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "CarrierRig";
+            VestLoadout = "MG";
+            Camo = "OGA_OD";
+        };
+        class VSM_CarrierRig_Operator_OGA_OD
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "CarrierRig";
+            VestLoadout = "Operator";
+            Camo = "OGA_OD";
+        };
+        class VSM_LBT6094_breacher_OGA_OD
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "LBT6094";
+            VestLoadout = "Breacher";
+            Camo = "OGA_OD";
+        };
+        class VSM_LBT6094_MG_OGA_OD
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "LBT6094";
+            VestLoadout = "MG";
+            Camo = "OGA_OD";
+        };
+        class VSM_LBT6094_operator_OGA_OD
+        {
+            model = "VSM_Vest_Model";
+            VestPlatform = "LBT6094";
+            VestLoadout = "Operator";
+            Camo = "OGA_OD";
+        };
