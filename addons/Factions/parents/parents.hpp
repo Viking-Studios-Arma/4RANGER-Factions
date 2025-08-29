@@ -111,6 +111,17 @@
       class CargoTurret_04;
     };
   };
+  class vtx_UH60M: vtx_H60_base
+  {
+  	class Turrets: Turrets
+		{
+			class CopilotTurret;
+			class MainTurret;
+			class RightDoorGun;
+      class troop_commander;
+
+    };
+  };
   class UK3CB_BAF_Wildcat_AH1_TRN_8A;
   class UK3CB_BAF_Wildcat_AH1_8_Armed;
   class UK3CB_BAF_Wildcat_AH1_CAS_8C;

@@ -5,7 +5,7 @@
 		    author = "Amateur-god";
 		    scope = 2;
 		    scopeCurator = 2;
-		    options[] = {"Shirt","Trousers","Sleeves","Collar","Kneepads","Gloves","Shoes"};
+		    options[] = {"Shirt","Trousers","Sleeves","Collar","Kneepads","Gloves","Shoes","Fins"};
 
 		    // Defines the various shirt types available.
 		    class Shirt
@@ -133,7 +133,18 @@
 		        class BTS { label = "Boots"; };
 		        class WS { label = "Walking Shoes"; };
 		    };
+			// Defines the fin accessory.
+        	class Fins
+        	{
+        	    alwaysSelectable = 1;
+        	    changeingame = 1;
+        	    values[] = {"None","IST"};
+        	    class None { label = "None"; };
+        	    class IST { label = "Scuba Fins"; };
+        	};
 		};
+
+
 		class VSM_Multicam_Uniform
 		{
 		    label = "VSM Multicam Uniform";

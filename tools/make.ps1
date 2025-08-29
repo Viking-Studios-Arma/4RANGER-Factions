@@ -54,7 +54,6 @@ function Get-FullFileHash {
     foreach ($file in $input) {
         $string = $file.FullName
 
-        # http://jongurgul.com/blog/get-stringhash-get-filehash/
         $StringBuilder = New-Object System.Text.StringBuilder
         [System.Security.Cryptography.HashAlgorithm]::Create($Algo).ComputeHash([System.Text.Encoding]::UTF8.GetBytes($string)) | ForEach-Object {
             [Void]$StringBuilder.Append($_.ToString("x2"))

@@ -478,3 +478,35 @@
       };
     };
   };
+  class VSC_UH60M: vtx_UH60M
+  {
+    faction="VS_C_4RANGER";
+    editorCategory="VS_C_4RANGER";
+    editorSubcategory = "VSC_Helicopters";
+    side=1;
+    scope=2;
+    scopecurator=2;
+    displayName="HH-60G/M Pavehawk (Black Hawk)";
+    crew="VSC_4RANGER_MC_Heli_Pilot";
+    typicalCargo[] = {"VSC_4RANGER_MC_Heli_Crew"};
+    vehicleClass = "VSC_helicopters";
+		class Turrets: Turrets
+		{
+			class CopilotTurret: CopilotTurret
+			{
+        gunnerType = "VSC_4RANGER_MC_Heli_Pilot";
+			};
+      class MainTurret: MainTurret
+		  {
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
+		  };
+		  class RightDoorGun: RightDoorGun
+		  {
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
+		  };
+      class troop_commander: troop_commander
+      {
+        gunnerType = "VSC_4RANGER_MC_Heli_Crew";
+      };
+    };
+  };

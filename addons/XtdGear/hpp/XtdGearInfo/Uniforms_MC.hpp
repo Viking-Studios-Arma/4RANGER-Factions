@@ -1256,7 +1256,6 @@
 		    Shoes = "BTS";
 		};
 
-		//Update
 		class USP_PCU_G3C_MX_MC_KHK
 		{
 		    model = "USP_G3_Uniform";
@@ -1957,6 +1956,323 @@
 		    Gloves = "Overlord";
 		    Shoes = "BTS";
 		};
+// --- MTP Trousers ---
+        class USP_G3C_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "UBACS";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_G3C_CS_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "UBACS";
+            Trousers = "MTP";
+            Sleeves = "CS";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_G3C_RS_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "UBACS";
+            Trousers = "MTP";
+            Sleeves = "RS";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_G3C_RS2_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "UBACS";
+            Trousers = "MTP";
+            Sleeves = "RS2";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_G3C_IST_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "UBACS";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "IST";
+        };
+        class USP_PCU_G3C_MC_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "PCU";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+
+        // --- Rugby Shirts with MTP Trousers ---
+        class USP_RUGBY_G3C_USA_RGR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_RGR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_USA_CBR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_CBR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_RGR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_RGR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_CBR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_CBR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_KP_RGR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_RGR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_KP_CBR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_CBR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_MX_RGR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_RGR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "Mechanix";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_MX_CBR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_CBR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "Mechanix";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_OR_RGR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_RGR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "Overlord";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_OR_CBR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_CBR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "No";
+            Gloves = "Overlord";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_KP_MX_RGR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_RGR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "Mechanix";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_KP_MX_CBR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_CBR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "Mechanix";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_KP_OR_RGR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_RGR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "Overlord";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_KP_OR_CBR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_CBR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "Overlord";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+
+        // Note: The KP2 naming convention is treated the same as KP (Kneepads = "Yes")
+        class USP_RUGBY_G3C_KP2_RGR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_RGR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_KP2_CBR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_CBR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "None";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_KP2_MX_RGR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_RGR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "Mechanix";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_KP2_MX_CBR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_CBR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "Mechanix";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_KP2_OR_RGR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_RGR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "Overlord";
+            Shoes = "BTS";
+            Fins = "None";
+        };
+        class USP_RUGBY_G3C_KP2_OR_CBR_MTP
+        {
+            model = "USP_G3_Uniform";
+            Shirt = "Rugby_CBR";
+            Trousers = "MTP";
+            Sleeves = "Normal";
+            Collar = "Down";
+            Kneepads = "Yes";
+            Gloves = "Overlord";
+            Shoes = "BTS";
+            Fins = "None";
+        };
 		// --- VSM Crye Uniforms ---
 		class VSM_Multicam_Crye_od_pants_Camo
 		{
