@@ -157,7 +157,7 @@ class VSC_4RANGER_MC_Recruit: B_Soldier_F
     displayName = "Recruit";
     uniformClass = "UK3CB_BAF_U_CombatUniform_MTP";
     backpack = "VSC_4RANGER_MC_Recruit_pack";
-    VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "UK3CB_underbarrel_acc_grippod_t", "SACE_optic_MRCO_2D"};
+    VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "UK3CB_underbarrel_acc_grippod_t", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\rifleman.paa";
     weapons[] = {"uk3cb_baf_l85a3", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     respawnWeapons[] = {"uk3cb_baf_l85a3", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
