@@ -12,8 +12,8 @@ class VSC_4RANGER_MC_PL_IC: B_Soldier_SL_F
     backpack = "VSC_4RANGER_MC_PL_IC_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\sl.paa";
-    weapons[] = {"sma_mk18moetan", "JCA_hgun_P320_black_F", "Put", "Throw"};
-    respawnWeapons[] = {"sma_mk18moetan", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    weapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    respawnWeapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid","ACRE_PRC343",
@@ -29,13 +29,13 @@ class VSC_4RANGER_MC_PL_IC: B_Soldier_SL_F
     magazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
@@ -73,8 +73,8 @@ class VSC_4RANGER_MC_JFO: B_Soldier_SL_F
     backpack = "VSC_4RANGER_MC_JFO_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\jfo.paa";
-    weapons[] = {"sma_mk18moetan", "JCA_hgun_P320_black_F", "Put", "Throw"};
-    respawnWeapons[] = {"sma_mk18moetan", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    weapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    respawnWeapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid","ACRE_PRC343",
@@ -90,13 +90,13 @@ class VSC_4RANGER_MC_JFO: B_Soldier_SL_F
     magazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
@@ -117,8 +117,8 @@ class VSC_4RANGER_MC_Rifleman: B_Soldier_F
     backpack = "VSC_4RANGER_MC_Rifleman_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\rifleman.paa";
-    weapons[] = {"sma_mk18moetan", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
-    respawnWeapons[] = {"sma_mk18moetan", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    weapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    respawnWeapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -134,13 +134,13 @@ class VSC_4RANGER_MC_Rifleman: B_Soldier_F
     magazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
@@ -224,14 +224,14 @@ class VSC_4RANGER_MC_Grenadier: B_Soldier_F
         "rhs_mag_M433_HEDP",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "rhs_mag_M433_HEDP",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
     respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
@@ -268,14 +268,14 @@ class VSC_4RANGER_MC_Breacher: B_Soldier_F
         "rhs_mag_m576",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "rhs_mag_m576",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
     respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
@@ -337,8 +337,8 @@ class VSC_4RANGER_MC_Medic: B_medic_F
     backpack = "VSC_4RANGER_MC_Medic_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_IR_Tan", "", "optic_MRCO"};
     editorPreview = "x\VS_C\Factions\Images\medic.paa";
-    weapons[] = {"sma_mk18moetan", "JCA_hgun_P320_black_F", "Put", "Throw"};
-    respawnWeapons[] = {"sma_mk18moetan", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    weapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    respawnWeapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -355,13 +355,13 @@ class VSC_4RANGER_MC_Medic: B_medic_F
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
     respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
@@ -379,8 +379,8 @@ class VSC_4RANGER_MC_Surgeon: B_medic_F
     backpack = "VSC_4RANGER_MC_Surgeon_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_IR_Tan", "", "optic_MRCO"};
     editorPreview = "x\VS_C\Factions\Images\medic.paa";
-    weapons[] = {"sma_mk18moetan", "JCA_hgun_P320_black_F", "Put", "Throw"};
-    respawnWeapons[] = {"sma_mk18moetan", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    weapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    respawnWeapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -397,13 +397,13 @@ class VSC_4RANGER_MC_Surgeon: B_medic_F
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
     respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
@@ -421,8 +421,8 @@ class VSC_4RANGER_MC_AT: B_soldier_LAT_F
     backpack = "VSC_4RANGER_MC_AT_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_IR_Tan", "", "SMA_ELCAN_SPECTER_TAN_RDS_4z"};
     editorPreview = "x\VS_C\Factions\Images\at.paa";
-    weapons[] = {"sma_mk18moetan", "launch_MRAWS_green_F", "JCA_hgun_P320_black_F", "Put", "Throw"};
-    respawnWeapons[] = {"sma_mk18moetan", "launch_MRAWS_green_F", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    weapons[] = {"VSC_L403A1", "launch_MRAWS_green_F", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    respawnWeapons[] = {"VSC_L403A1", "launch_MRAWS_green_F", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -439,14 +439,14 @@ class VSC_4RANGER_MC_AT: B_soldier_LAT_F
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "MRAWS_HEAT_F",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "MRAWS_HEAT_F",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
@@ -507,8 +507,8 @@ class VSC_4RANGER_MC_EOT: B_engineer_F
     backpack = "VSC_4RANGER_MC_EOT_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_IR_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\eod.paa";
-    weapons[] = {"sma_mk18moetan", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
-    respawnWeapons[] = {"sma_mk18moetan", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    weapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    respawnWeapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -526,12 +526,12 @@ class VSC_4RANGER_MC_EOT: B_engineer_F
     magazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
     respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
@@ -549,8 +549,8 @@ class VSC_4RANGER_MC_Drone_Tech: B_soldier_UAV_F
     backpack = "VSC_4RANGER_MC_Drone_Tech_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_IR_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\uav.paa";
-    weapons[] = {"sma_mk18moetan", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
-    respawnWeapons[] = {"sma_mk18moetan", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    weapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    respawnWeapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
@@ -566,13 +566,13 @@ class VSC_4RANGER_MC_Drone_Tech: B_soldier_UAV_F
     magazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
@@ -593,8 +593,8 @@ class VSC_4RANGER_MC_CBRN_IC: B_Soldier_SL_F
     backpack = "VSC_4RANGER_MC_CBRN_IC_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\cbrn_sl.paa";
-    weapons[] = {"sma_mk18moetan", "JCA_hgun_P320_black_F", "Put", "Throw"};
-    respawnWeapons[] = {"sma_mk18moetan", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    weapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    respawnWeapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter","CBRN_gasmaskFilter",
@@ -621,14 +621,14 @@ class VSC_4RANGER_MC_CBRN_IC: B_Soldier_SL_F
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
 
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
 
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
@@ -647,8 +647,8 @@ class VSC_4RANGER_MC_CBRN_EOT: B_engineer_F
     backpack = "VSC_4RANGER_MC_CBRN_EOT_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\cbrn_eod.paa";
-    weapons[] = {"sma_mk18moetan", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
-    respawnWeapons[] = {"sma_mk18moetan", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    weapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    respawnWeapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape",
@@ -676,12 +676,12 @@ class VSC_4RANGER_MC_CBRN_EOT: B_engineer_F
     magazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG"
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
     linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
     respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
@@ -699,8 +699,8 @@ class VSC_4RANGER_MC_CBRN_Rifleman: B_Soldier_F
     backpack = "VSC_4RANGER_MC_CBRN_Rifleman_pack";
     VSC_weaponItems[] = {"", "UK3CB_BAF_LLM_Flashlight_Tan", "", "ACE_optic_MRCO_2D"};
     editorPreview = "x\VS_C\Factions\Images\cbrn.paa";
-    weapons[] = {"sma_mk18moetan", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
-    respawnWeapons[] = {"sma_mk18moetan", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    weapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
+    respawnWeapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
         "CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape","CBRN_DuctTape",
@@ -726,13 +726,13 @@ class VSC_4RANGER_MC_CBRN_Rifleman: B_Soldier_F
     magazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     respawnMagazines[] = {
         "kat_Painkiller","kat_Painkiller","kat_Painkiller","kat_Painkiller",
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
-        "JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG","JCA_30Rnd_556x45_PMAG",
+        "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
     linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
