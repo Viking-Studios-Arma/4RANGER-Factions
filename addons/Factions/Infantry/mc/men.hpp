@@ -16,13 +16,13 @@ class VSC_4RANGER_MC_PL_IC: B_Soldier_SL_F
     respawnWeapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -38,8 +38,8 @@ class VSC_4RANGER_MC_PL_IC: B_Soldier_SL_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_PL_2IC: VSC_4RANGER_MC_PL_IC
@@ -77,13 +77,13 @@ class VSC_4RANGER_MC_JFO: B_Soldier_SL_F
     respawnWeapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -99,8 +99,8 @@ class VSC_4RANGER_MC_JFO: B_Soldier_SL_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 // --- Standard Infantry ---
@@ -121,13 +121,13 @@ class VSC_4RANGER_MC_Rifleman: B_Soldier_F
     respawnWeapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -143,8 +143,8 @@ class VSC_4RANGER_MC_Rifleman: B_Soldier_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Recruit: B_Soldier_F
@@ -163,13 +163,13 @@ class VSC_4RANGER_MC_Recruit: B_Soldier_F
     respawnWeapons[] = {"uk3cb_baf_l85a3", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -189,8 +189,8 @@ class VSC_4RANGER_MC_Recruit: B_Soldier_F
         "HandGrenade","HandGrenade",
         "ACE_CTS9","ACE_CTS9","ACE_CTS9","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "mpx_cobra_patch", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "mpx_cobra_patch", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "mpx_cobra_patch", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "mpx_cobra_patch", "Virtus_B_3", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Grenadier: B_Soldier_F
@@ -209,13 +209,13 @@ class VSC_4RANGER_MC_Grenadier: B_Soldier_F
     respawnWeapons[] = {"sma_mk18tan_gl", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -233,8 +233,8 @@ class VSC_4RANGER_MC_Grenadier: B_Soldier_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Breacher: B_Soldier_F
@@ -253,13 +253,13 @@ class VSC_4RANGER_MC_Breacher: B_Soldier_F
     respawnWeapons[] = {"sma_mk18tan_gl", "tsp_meleeWeapon_sledge_black", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -277,8 +277,8 @@ class VSC_4RANGER_MC_Breacher: B_Soldier_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 // --- Specialist Roles ---
@@ -299,13 +299,13 @@ class VSC_4RANGER_MC_LMG: B_soldier_AR_F
     respawnWeapons[] = {"uk3cb_baf_l110_762", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -321,8 +321,8 @@ class VSC_4RANGER_MC_LMG: B_soldier_AR_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "UK3CB_BAF_762_100Rnd","UK3CB_BAF_762_100Rnd"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Medic: B_medic_F
@@ -341,13 +341,13 @@ class VSC_4RANGER_MC_Medic: B_medic_F
     respawnWeapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -363,8 +363,8 @@ class VSC_4RANGER_MC_Medic: B_medic_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 class VSC_4RANGER_MC_Surgeon: B_medic_F
@@ -383,13 +383,13 @@ class VSC_4RANGER_MC_Surgeon: B_medic_F
     respawnWeapons[] = {"VSC_L403A1", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -405,8 +405,8 @@ class VSC_4RANGER_MC_Surgeon: B_medic_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 class VSC_4RANGER_MC_AT: B_soldier_LAT_F
@@ -425,13 +425,13 @@ class VSC_4RANGER_MC_AT: B_soldier_LAT_F
     respawnWeapons[] = {"VSC_L403A1", "launch_MRAWS_green_F", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -449,8 +449,8 @@ class VSC_4RANGER_MC_AT: B_soldier_LAT_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_Marksman: B_recon_M_F
@@ -469,13 +469,13 @@ class VSC_4RANGER_MC_Marksman: B_recon_M_F
     respawnWeapons[] = {"uk3cb_baf_l129a1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -491,8 +491,8 @@ class VSC_4RANGER_MC_Marksman: B_recon_M_F
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9",
         "UK3CB_BAF_762_L42A1_20Rnd","UK3CB_BAF_762_L42A1_20Rnd","UK3CB_BAF_762_L42A1_20Rnd","UK3CB_BAF_762_L42A1_20Rnd"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 class VSC_4RANGER_MC_EOT: B_engineer_F
@@ -511,14 +511,14 @@ class VSC_4RANGER_MC_EOT: B_engineer_F
     respawnWeapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_DefusalKit","ACE_M26_Clacker",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_DefusalKit","ACE_M26_Clacker",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
@@ -533,8 +533,8 @@ class VSC_4RANGER_MC_EOT: B_engineer_F
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 class VSC_4RANGER_MC_Drone_Tech: B_soldier_UAV_F
@@ -553,13 +553,13 @@ class VSC_4RANGER_MC_Drone_Tech: B_soldier_UAV_F
     respawnWeapons[] = {"VSC_L403A1", "UK3CB_BAF_AT4_CS_AP_Launcher", "JCA_hgun_P320_black_F", "Put", "Throw"};
     items[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
     respawnItems[] = {
         "ACE_MapTools","ACE_Flashlight_XL50","ACE_ATNAA_AntidoteInjector","kat_chestSeal","kat_chestSeal","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_splint","ACE_splint","ACE_splint","ACE_adenosine","ACE_epinephrine","ACE_morphine","kat_suction","ACE_plasmaIV_250","kat_larynx",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -575,8 +575,8 @@ class VSC_4RANGER_MC_Drone_Tech: B_soldier_UAV_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC", "UK3CB_BAF_G_Tactical_Black"};
 };
 
 // --- CBRN Roles ---
@@ -602,7 +602,7 @@ class VSC_4RANGER_MC_CBRN_IC: B_Soldier_SL_F
         "CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -613,7 +613,7 @@ class VSC_4RANGER_MC_CBRN_IC: B_Soldier_SL_F
         "CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ItemAndroid",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -631,8 +631,8 @@ class VSC_4RANGER_MC_CBRN_IC: B_Soldier_SL_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "UK3CB_BAF_Soflam_Laserdesignator", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 class VSC_4RANGER_MC_CBRN_EOT: B_engineer_F
@@ -656,7 +656,7 @@ class VSC_4RANGER_MC_CBRN_EOT: B_engineer_F
         "CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_DefusalKit","ACE_M26_Clacker",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
@@ -668,7 +668,7 @@ class VSC_4RANGER_MC_CBRN_EOT: B_engineer_F
         "CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_DefusalKit","ACE_M26_Clacker",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
@@ -683,8 +683,8 @@ class VSC_4RANGER_MC_CBRN_EOT: B_engineer_F
         "JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag","JCA_17Rnd_9x21_P320_Mag",
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1"
     };
-    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 class VSC_4RANGER_MC_CBRN_Rifleman: B_Soldier_F
@@ -708,7 +708,7 @@ class VSC_4RANGER_MC_CBRN_Rifleman: B_Soldier_F
         "CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -719,7 +719,7 @@ class VSC_4RANGER_MC_CBRN_Rifleman: B_Soldier_F
         "CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant","CBRN_sealant",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage",
-        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM","ACRE_PRC343",
+        "ACE_EarPlugs","ACE_IR_Strobe_Item","ItemMicroDAGR","ACE_ATNAA_AntidoteInjector","kat_larynx","kat_suction","kat_pocketBVM",
         "ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage",
         "ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage"
     };
@@ -735,8 +735,8 @@ class VSC_4RANGER_MC_CBRN_Rifleman: B_Soldier_F
         "VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1","VSC_30Rnd_556x45_L403A1",
         "UK3CB_BAF_SmokeShell","UK3CB_BAF_SmokeShell","ACE_CTS9"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "ItemWatch", "TFAR_anprc152", "opscore_highcut_mc", "USP_CRYE_CPC_WEAPON_BELT_MC"};
 };
 
 // --- Air Crew ---
@@ -781,8 +781,8 @@ class VSC_4RANGER_MC_Heli_Pilot: B_Helipilot_F
         "JCA_17Rnd_9x21_P320_Mag",
         "JCA_25Rnd_45ACP_UMP_Mag","JCA_25Rnd_45ACP_UMP_Mag"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "rhsusf_hgu56p_visor", "CMU33P"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "rhsusf_hgu56p_visor", "CMU33P"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "rhsusf_hgu56p_visor", "CMU33P"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "rhsusf_hgu56p_visor", "CMU33P"};
 };
 
 class VSC_4RANGER_MC_Heli_Crew: B_HeliCrew_F
@@ -825,6 +825,6 @@ class VSC_4RANGER_MC_Heli_Crew: B_HeliCrew_F
         "JCA_17Rnd_9x21_P320_Mag",
         "JCA_25Rnd_45ACP_UMP_Mag","JCA_25Rnd_45ACP_UMP_Mag"
     };
-    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "rhsusf_hgu56p_visor_mask", "CMU33P"};
-    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "rhsusf_hgu56p_visor_mask", "CMU33P"};
+    linkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "rhsusf_hgu56p_visor_mask", "CMU33P"};
+    respawnLinkedItems[] = {"ItemMap", "ItemGPS", "ItemCompass", "KAT_ChemicalDetector", "TFAR_anprc152", "rhsusf_hgu56p_visor_mask", "CMU33P"};
 };
